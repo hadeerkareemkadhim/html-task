@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>Form</title>
+</head>
+<body> 
+    <form  name="Regster"  action="a.html" target="_blank" method="POST">
+        <label for="Name">Name:</label><br>
+        <input type="text" id="name" required  placeholder="enter your name"  autofocus   name="name" ><hr>
+        <label for="pass"> Password:</label><br>
+        <input type="password" id="password" placeholder="enter strong password" name="pass"  required maxlength="5"><hr>
+        <label for="mail">Email:</label><br> 
+        <input type="email" id="Email" name="Email" placeholder="your email" readonly value="queen@gmail.com"><hr>
+        <label for="Language">Language:</label><br>
+        <input id="arabic" type="checkbox" name="arabic" value="arabic">
+        <label for="Language"> Arabic </label>
+        <input id="english" type="checkbox" name="english" value="english"> 
+        <label for="Language"> English</label> 
+        <input id="france" type="checkbox" name="france" value="france" >
+        <label for="Language"> france</label> <hr> 
+
+        <label for="os">OS:</label><br>
+        <input id="mak" type="radio" name="oprating system" value="mak"> 
+         <label for="mak"> mak</label> 
+         <input id="wind" type="radio" name="oprating system" value="wind"> 
+         <label for="wind"> windows</label>
+         <input id="linux" type="radio" name="oprating system" value="linux"> 
+         <label for="linux"> linux</label>
+         <hr> <!-- # الفرق بين ال radio وال checkbox 
+            radio: يستخدم لاختيار خيار واحد فقط 
+            checkbox:يستخدم لاختيار اكثر من خيار --> 
+        <input type="hidden" name="id" value="12345"><br> 
+        <input type="submit" value="send" > 
+ 
+    </form>
+
+</body>
+</html>
